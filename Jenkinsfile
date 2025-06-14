@@ -55,6 +55,7 @@ pipeline {
                 node_modules/.bin/netlify --version
                 echo 'Deploy to production netlify ID : de4f2189-690f-4359-85d3-1c411e5d9eaf'
                 node_modules/.bin/netlify status
+                node_modules/.bin/netlify deploy --dir=build --prod
                 '''
             }
         }    
