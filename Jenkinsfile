@@ -14,7 +14,8 @@ pipeline {
                 }
             }
             steps{
-                sh 'ls -la'
+                sh 'npm --version'
+
             }
         }
     }
